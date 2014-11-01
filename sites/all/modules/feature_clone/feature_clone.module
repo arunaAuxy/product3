@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the feature clone feature.
+ */
+
+include_once 'feature_clone.features.inc';

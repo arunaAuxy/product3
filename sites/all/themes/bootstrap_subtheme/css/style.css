@@ -1,0 +1,45 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.navbar-default {
+background-color: red;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: white;
+}
+
+.navbar-default .navbar-brand {
+color: white;
+margin-top: 34px;
+font-size: 27px;
+font-family: cursive;
+}
+
+a.dropdown-toggle {
+background-color: orange;
+margin-top: -20px;
+color: white
+}
+
+aside.col-sm-3 {
+float: right;
+margin-right: 55px;
+margin-top: -73px;
+}
+
+.col-sm-9 {
+width: 97%;
+margin-top: -19px;
+margin-left: -16px;
+}
+
+.region.region-header {
+margin-top: 73px;
+}
+
+.follow-links.clearfix.site {
+padding-left: 607px;
+}

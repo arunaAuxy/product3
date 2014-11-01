@@ -1,0 +1,9 @@
+name = feature clone
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = feature_clone
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = clone_of_customer_profiles
+features_exclude[dependencies][views] = views

@@ -1,0 +1,11 @@
+name = new_feature
+description = this is a new dummy feature.
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = new_feature
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features_exclude[dependencies][commerce_customer_ui] = commerce_customer_ui
+features_exclude[dependencies][commerce_payment_ui] = commerce_payment_ui
+features_exclude[dependencies][views] = views
